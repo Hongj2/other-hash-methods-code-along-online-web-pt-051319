@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-groceries.values.flatten.sort[0]
+groceries.values.flatten.sort.map
+groceries[0]
 end
